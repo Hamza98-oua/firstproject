@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Dataset Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Diabetes Patient Information Form</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <h2>Diabetes Dataset</h2>
+            <label for="pregnancies">Pregnancies:</label>
+            <input type="number" id="pregnancies" name="pregnancies" required>
+
+            <label for="glucose">Glucose Level:</label>
+            <input type="number" id="glucose" name="glucose" step="0.01" required>
+
+            <label for="blood_pressure">Blood Pressure:</label>
+            <input type="number" id="blood_pressure" name="blood_pressure" required>
+
+            <label for="skin_thickness">Skin Thickness:</label>
+            <input type="number" id="skin_thickness" name="skin_thickness" step="0.1" required>
+
+            <label for="insulin">Insulin Level:</label>
+            <input type="number" id="insulin" name="insulin" step="0.1" required>
+
+            <label for="bmi">BMI:</label>
+            <input type="number" id="bmi" name="bmi" step="0.1" required>
+
+            <label for="diabetes_pedigree_function">Diabetes Pedigree Function:</label>
+            <input type="number" id="diabetes_pedigree_function" name="diabetes_pedigree_function" step="0.01" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="outcome">Outcome:</label>
+            <select id="outcome" name="outcome" required>
+                <option value="0">Non-Diabetic</option>
+                <option value="1">Diabetic</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Diabetes Dataset Form</p>
+        <nav>
+            <a href="index.html">Go to Healthcare Dataset Form</a>
+        </nav>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    background-image: url(background.png) ;
+    background-repeat: no-repeat;
+    background-position: left  ;
+    background-size: contain;
+    background-color: #37AFE1;
+}
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    background-color: #37AFE1;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    margin: 2rem auto;
+    width: 80% ;
+    max-width: 600px;
+    }
+
+form {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+    color: #37AFE1;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #37AFE1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+button:hover {
+    background-color: #37AFE1;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #37AFE1;
+    color: white;
+    margin-top: 2rem;
+}
